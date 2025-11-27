@@ -1,7 +1,7 @@
 /* All Sections */
 
 .section-heading {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   color: var(--colorBlack);
   text-transform: uppercase;
@@ -139,6 +139,8 @@
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
+  /*  */
+  font-size: 0.9rem;
 }
 
 .btn-primary-estate:hover {
@@ -202,4 +204,12 @@
 
 .policy_links a {
   color: var(--colorSecondary);
+}
+
+.navbar-toggler-icon {
+  background-image: url("../img/logo/menu.svg") !important;
+}
+
+.action-footer li a {
+  color: var(--colorWhite);
 }
