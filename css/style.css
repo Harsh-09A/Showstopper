@@ -85,6 +85,16 @@ header {
   }
 }
 
+@media screen and (min-width: 1000px) {
+  .mobileview {
+    display: none;
+  }
+}
+
+.head_call_btn {
+  color: var(--colorSecondary);
+}
+
 /* Navbar Ends */
 
 main {
@@ -103,10 +113,10 @@ main {
 
 @media screen and (max-width: 600px) {
   .carousel-item .banner1 {
-    content: url("../img/banners/mobile_banner01.jpg");
+    content: url("../img/banners/mobile_banner02.jpg");
   }
   .carousel-item .banner2 {
-    content: url("../img/banners/mobile_banner02.jpg");
+    content: url("../img/banners/mobile_banner01.jpg");
   }
 }
 
